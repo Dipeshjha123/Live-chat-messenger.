@@ -1,0 +1,53 @@
+/* public/css/style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .message {
+    padding: 8px 12px;
+    margin: 6px;
+    border-radius: 8px;
+  }
+  
+  .left {
+    background-color: #e0e0e0;
+  }
+  
+  .right {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .send {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .send input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .send button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
